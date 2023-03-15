@@ -1,13 +1,15 @@
-package review;
+package class3;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BrowserClose {
+public class Maximize {
     public static void main(String[] args) {
+
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
-        driver.close();
+        driver.manage().window().maximize();
+        driver.manage().window().fullscreen();
     }
 }

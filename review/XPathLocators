@@ -1,0 +1,7 @@
+XPath:
+a-Absolute Xpath:"/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input"
+b-Relative Xpath:
+1.//tagName[@attributeName='value']
+2.//tagName[text()='InnerText']
+3.//tagName[contains(@attribute,'value')]
+4.//tagName[contains(text(),'InnerText')]
